@@ -1,0 +1,21 @@
+1. Parse Errors (syntax errors)
+
+Parse Error ini terjadi jika ada kesalahan sintaks dalam script dan pesan kesalahan akan muncul pada outputnya ketika dijalankan. Parse error akan menghentikan proses eksekusi script. Ada banyak alasan ketika terjadinya parse error di PHP. Alasan umum pada parse error adalah sebagai berikut:
+
+Kutipan yang tidak ditutup
+Kelebihan atau kekurangan tanda kurung
+Kurung kurawal yang tidak ditutup
+Kurang titik koma
+
+
+2. Fatal Errors
+
+Fatal error terjadi ketika PHP mengerti kode yang telah ditulis, namun apa yang diminta oleh kode tidak dapat dilakukan. Fatal error akan menghentikan eksekusi script. Jika Kamu mencoba untuk mengakses fungsi yang belum didefinisikan, maka outputnya adalah fatal error.
+
+3. Warning Errors
+
+Warning error tidak akan menghentikan eksekusi dari script. Alasan utama dari warning error yaitu menyertakan file yang tidak ada atau mengisikan jumlah parameter yang tidak pas saat memanggil suatu fungsi.
+
+4. Notice Errors
+
+Notice error sama hal nya dengan Warning Error yaitu ketika terjadi notice error eksekusi script tidak akan berhenti. Notice Error akan terjadi ketika kita mencoba untuk mengakses variabel yang belum didefinisikan.
